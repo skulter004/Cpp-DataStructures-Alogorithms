@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int Fac(int n){
+    int fac=1;
+    for(int i=1;i<=n;i++){
+        fac= fac*i;
+    }
+    return fac;
+
+}
+
+
+int main(){
+   
+    int n;
+    int r;
+    cin>>n>>r;
+     int num= Fac(n);
+     int den=Fac(r)*Fac(n-r);
+     cout<<num/den;
+    return 0;
+}
