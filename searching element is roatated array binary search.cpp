@@ -65,7 +65,7 @@ int main(){
 
    }
    else{
-       binarysearch(arr,5,key,0,pivot-1);
+       binarysearch(arr,5,key,pivot,4);
    }
     return 0;
     
