@@ -1,0 +1,1 @@
+question1 why we prefer merge sort in  link list and quick sort in array
