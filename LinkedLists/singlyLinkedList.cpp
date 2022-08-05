@@ -109,7 +109,7 @@ void deletePosition(Node* &head, Node* &tail, int position){
     }
 }
 
-//deletion by data
+//deletion by data incomplete
 void deleteData(Node* &head, Node* &tail, int data){
     Node* temp = head;
     //deleting head node

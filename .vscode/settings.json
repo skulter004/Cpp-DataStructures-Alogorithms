@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "tuple": "cpp",
+        "valarray": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp"
+    }
+}

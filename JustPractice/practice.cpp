@@ -1,17 +1,40 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int lastLength(string str){
-    int len = str.length();
-    int ans = 0;
-    for(int i = len-1; i >= 0; i--){
-        if (str[i] == ' ') break;
+ bool isPalindrome(string s) {
         
-        ans++;
-    }
-    return ans;
-}
+        string newS ;
+        int j = 0;
+        for(int i = 0; i < s.length(); i++){
+            if((s[i] >= 'A' && s[i] <='Z') ||( s[i] >= 'a' && s[i] <= 'z' ) || (s[i] >='0' && s[i] <='9' )) 
+                newS[j++] = s[i];
+                cout << newS[j] << endl;
+        }
+        
+        string temp = "";
+        cout << newS;
+        for(int i = 0; i < newS.length();  i++){
+            newS[i] = tolower(newS[i]);
+        }
 
+        cout << newS;
+        
+        j = 0;
+        for(int i = newS.length()-1; i >= 0; i--){
+            temp[j++] = newS[i];
+        }
+
+
+
+        if(newS == temp) return true;
+        
+        else
+           return false;
+    }
 int main(){
-    cout << lastLength("shivam singh is a student of jecrc university");
+    vector<int> nums;
+    string str = "shivam";
+    cout << isPalindrome(str) << endl;
+
 }
