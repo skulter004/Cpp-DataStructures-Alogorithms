@@ -1,10 +1,11 @@
 #include<iostream>
-
 using namespace std;
-string replacestr(string str){
-    string temp=""; 
+
+string replaceStr(string str){
+    
+    string temp = "";
     for(int i=0;i<str.length();i++){
-        if(str[i]==' '){
+        if(str[i] == ' '){
             temp.push_back('@');
             temp.push_back('4');
             temp.push_back('0');
@@ -12,13 +13,13 @@ string replacestr(string str){
         else{
             temp.push_back(str[i]);
         }
-
     }
     return temp;
 }
+
 int main(){
     string str;
     getline(cin,str);
-    cout<<replacestr(str);
+    cout<<replaceStr(str);
     return 0;
 }

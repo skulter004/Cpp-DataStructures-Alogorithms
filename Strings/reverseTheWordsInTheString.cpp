@@ -12,17 +12,13 @@ void revstr( string str){
         e--;
     }
     cout<<str<<" ";
-    return ;
+    return;
 }
 
-
 int main(){
-     string str;
-     getline(cin,str);
-         
+    string str;
+    getline(cin,str);
 
-    
-    revstr(str);
-   
+    revstr(str); 
     return 0;
-} 
+}
