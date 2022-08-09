@@ -3,5 +3,5 @@ In this repository i have added the complete codes for Data Structures and Algor
 of questions as possible of various topics like stack, queues, linked lists, heap, hasing, sorting, searching and many more each with implementations and 
 multiple questions also with their respective solutions
 
-THSNK YOU!
+THANK YOU!
 @Skulter
